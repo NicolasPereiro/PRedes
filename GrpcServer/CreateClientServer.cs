@@ -4,7 +4,6 @@ using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
 using GrpcServer.Services;
-using holas_namespace;
 
 public static class CreateClientServer
 {
@@ -40,10 +39,7 @@ public static class CreateClientServer
             string message = Encoding.UTF8.GetString(buffer, 0, bytesRead);
             Console.WriteLine($"Received: {message}");
 
-            if (HolaService.ResponseStream != null)
-            {
-                await HolaService.SendMessageAsync(message);
-            }
+            HolaService.AddMessage(message);
 
             byte[] response = Encoding.UTF8.GetBytes("Message received");
             await stream.WriteAsync(response, 0, response.Length);

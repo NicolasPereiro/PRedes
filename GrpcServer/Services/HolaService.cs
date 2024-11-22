@@ -1,33 +1,30 @@
 ﻿using Grpc.Core;
 using holas_namespace;
+using System.Collections.Concurrent;
 
 namespace GrpcServer.Services;
 
 public class HolaService : Hola.HolaBase
 {
-    public static IServerStreamWriter<SaludoReply>? ResponseStream { get; private set; }
-    
-    private static int messageCount = 0;
+    private static readonly ConcurrentDictionary<IServerStreamWriter<SaludoReply>, bool> ActiveStreams = new ConcurrentDictionary<IServerStreamWriter<SaludoReply>, bool>();
 
     public override async Task Saludar(SaludoRequest request, IServerStreamWriter<SaludoReply> responseStream, ServerCallContext context)
     {
-        ResponseStream = responseStream;
-        messageCount = 0;
-
-        while (messageCount < request.Cantidad && !context.CancellationToken.IsCancellationRequested)
+        ActiveStreams.TryAdd(responseStream, true);
+        
+        while (!context.CancellationToken.IsCancellationRequested)
         {
-            await Task.Delay(1000); // Keep the method alive
+            await Task.Delay(1000);
         }
-        ResponseStream = null;
+
+        ActiveStreams.TryRemove(responseStream, out _);
     }
 
-    public static async Task SendMessageAsync(string message)
+    public static void AddMessage(string message)
     {
-        if (ResponseStream != null)
+        foreach (var stream in ActiveStreams.Keys)
         {
-            messageCount++;
-            var saludoReply = new SaludoReply { Message = message };
-            await ResponseStream.WriteAsync(saludoReply);
+            stream.WriteAsync(new SaludoReply { Message = message });
         }
     }
 }
