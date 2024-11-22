@@ -19,3 +19,25 @@ C:\Users\Nico\Downloads\M6A-CodigoClase-main\M6A-CodigoClase-main\RPC\gRPC Examp
 C:\Users\Nico\Downloads\M6A-CodigoClase-main\M6A-CodigoClase-main\RPC\gRPC Example\ClientGrpc\obj\Debug\net8.0\ClientGrpc.pdb
 C:\Users\Nico\Downloads\M6A-CodigoClase-main\M6A-CodigoClase-main\RPC\gRPC Example\ClientGrpc\obj\Debug\net8.0\ClientGrpc.genruntimeconfig.cache
 C:\Users\Nico\Downloads\M6A-CodigoClase-main\M6A-CodigoClase-main\RPC\gRPC Example\ClientGrpc\obj\Debug\net8.0\ref\ClientGrpc.dll
+C:\Users\npere\RiderProjects\PRedes\ClientGrpc\bin\Debug\net8.0\ClientGrpc.exe
+C:\Users\npere\RiderProjects\PRedes\ClientGrpc\bin\Debug\net8.0\ClientGrpc.deps.json
+C:\Users\npere\RiderProjects\PRedes\ClientGrpc\bin\Debug\net8.0\ClientGrpc.runtimeconfig.json
+C:\Users\npere\RiderProjects\PRedes\ClientGrpc\bin\Debug\net8.0\ClientGrpc.dll
+C:\Users\npere\RiderProjects\PRedes\ClientGrpc\bin\Debug\net8.0\ClientGrpc.pdb
+C:\Users\npere\RiderProjects\PRedes\ClientGrpc\bin\Debug\net8.0\Google.Protobuf.dll
+C:\Users\npere\RiderProjects\PRedes\ClientGrpc\bin\Debug\net8.0\Grpc.Core.Api.dll
+C:\Users\npere\RiderProjects\PRedes\ClientGrpc\bin\Debug\net8.0\Grpc.Net.Client.dll
+C:\Users\npere\RiderProjects\PRedes\ClientGrpc\bin\Debug\net8.0\Grpc.Net.Common.dll
+C:\Users\npere\RiderProjects\PRedes\ClientGrpc\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\npere\RiderProjects\PRedes\ClientGrpc\obj\Debug\net8.0\ClientGrpc.csproj.AssemblyReference.cache
+C:\Users\npere\RiderProjects\PRedes\ClientGrpc\obj\Debug\net8.0\ClientGrpc.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\npere\RiderProjects\PRedes\ClientGrpc\obj\Debug\net8.0\ClientGrpc.AssemblyInfoInputs.cache
+C:\Users\npere\RiderProjects\PRedes\ClientGrpc\obj\Debug\net8.0\ClientGrpc.AssemblyInfo.cs
+C:\Users\npere\RiderProjects\PRedes\ClientGrpc\obj\Debug\net8.0\ClientGrpc.csproj.CoreCompileInputs.cache
+C:\Users\npere\RiderProjects\PRedes\ClientGrpc\obj\Debug\net8.0\ClientGrpc.sourcelink.json
+C:\Users\npere\RiderProjects\PRedes\ClientGrpc\obj\Debug\net8.0\ClientGrpc.csproj.Up2Date
+C:\Users\npere\RiderProjects\PRedes\ClientGrpc\obj\Debug\net8.0\ClientGrpc.dll
+C:\Users\npere\RiderProjects\PRedes\ClientGrpc\obj\Debug\net8.0\refint\ClientGrpc.dll
+C:\Users\npere\RiderProjects\PRedes\ClientGrpc\obj\Debug\net8.0\ClientGrpc.pdb
+C:\Users\npere\RiderProjects\PRedes\ClientGrpc\obj\Debug\net8.0\ClientGrpc.genruntimeconfig.cache
+C:\Users\npere\RiderProjects\PRedes\ClientGrpc\obj\Debug\net8.0\ref\ClientGrpc.dll

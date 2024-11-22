@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nico\\Downloads\\M6A-CodigoClase-main\\M6A-CodigoClase-main\\RPC\\gRPC Example\\GrpcServer\\GrpcServer.csproj": {}
+    "C:\\Users\\npere\\RiderProjects\\PRedes\\GrpcServer\\GrpcServer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nico\\Downloads\\M6A-CodigoClase-main\\M6A-CodigoClase-main\\RPC\\gRPC Example\\GrpcServer\\GrpcServer.csproj": {
+    "C:\\Users\\npere\\RiderProjects\\PRedes\\GrpcServer\\GrpcServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nico\\Downloads\\M6A-CodigoClase-main\\M6A-CodigoClase-main\\RPC\\gRPC Example\\GrpcServer\\GrpcServer.csproj",
+        "projectUniqueName": "C:\\Users\\npere\\RiderProjects\\PRedes\\GrpcServer\\GrpcServer.csproj",
         "projectName": "GrpcServer",
-        "projectPath": "C:\\Users\\Nico\\Downloads\\M6A-CodigoClase-main\\M6A-CodigoClase-main\\RPC\\gRPC Example\\GrpcServer\\GrpcServer.csproj",
-        "packagesPath": "C:\\Users\\Nico\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nico\\Downloads\\M6A-CodigoClase-main\\M6A-CodigoClase-main\\RPC\\gRPC Example\\GrpcServer\\obj\\",
+        "projectPath": "C:\\Users\\npere\\RiderProjects\\PRedes\\GrpcServer\\GrpcServer.csproj",
+        "packagesPath": "C:\\Users\\npere\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\npere\\RiderProjects\\PRedes\\GrpcServer\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Nico\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\npere\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

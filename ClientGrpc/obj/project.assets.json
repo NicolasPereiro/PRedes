@@ -285,19 +285,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Nico\\.nuget\\packages\\": {}
+    "C:\\Users\\npere\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Nico\\Downloads\\M6A-CodigoClase-main\\M6A-CodigoClase-main\\RPC\\gRPC Example\\ClientGrpc\\ClientGrpc.csproj",
+      "projectUniqueName": "C:\\Users\\npere\\RiderProjects\\PRedes\\ClientGrpc\\ClientGrpc.csproj",
       "projectName": "ClientGrpc",
-      "projectPath": "C:\\Users\\Nico\\Downloads\\M6A-CodigoClase-main\\M6A-CodigoClase-main\\RPC\\gRPC Example\\ClientGrpc\\ClientGrpc.csproj",
-      "packagesPath": "C:\\Users\\Nico\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Nico\\Downloads\\M6A-CodigoClase-main\\M6A-CodigoClase-main\\RPC\\gRPC Example\\ClientGrpc\\obj\\",
+      "projectPath": "C:\\Users\\npere\\RiderProjects\\PRedes\\ClientGrpc\\ClientGrpc.csproj",
+      "packagesPath": "C:\\Users\\npere\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\npere\\RiderProjects\\PRedes\\ClientGrpc\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Nico\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\npere\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

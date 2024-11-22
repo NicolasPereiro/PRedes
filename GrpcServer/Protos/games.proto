@@ -1,0 +1,88 @@
+syntax = "proto3";
+
+option csharp_namespace = "games_namespace";
+
+package games;
+
+service Games {
+  rpc AddGame (AddGameRequest) returns (AddGameReply);
+  rpc DeleteGame (DeleteGameRequest) returns (DeleteGameReply);
+  rpc ModifyGame (ModifyGameRequest) returns (ModifyGameReply);
+  rpc GetGames (GetGamesRequest) returns (GetGamesReply);
+  rpc GetGameRating (GetGameRatingRequest) returns (GetGameRatingReply);
+  rpc NextNBuys (NextNBuysRequest) returns ( stream NextNBuysReply);
+
+}
+
+message GetGameRatingRequest {
+  int32 id = 1;
+}
+
+message GetGameRatingReply {
+  float rating = 1;
+}
+
+message AddGameRequest {
+  string name = 1;
+  string user = 2;
+  string genre = 3;
+  string platform = 4;
+  string publisher = 5;
+  int32 releaseDate = 6;
+  int32 available = 7;
+}
+
+message AddGameReply {
+  string message = 1;
+}
+
+message DeleteGameRequest {
+  int32 id = 1;
+}
+
+message DeleteGameReply {
+  string message = 1;
+}
+
+message ModifyGameRequest {
+  int32 id = 1;
+  string name = 2;
+  string user = 3;
+  string genre = 4;
+  string platform = 5;
+  string publisher = 6;
+  int32 releaseDate = 7;
+  int32 available = 8;
+}
+
+message ModifyGameReply {
+  string message = 1;
+}
+
+message NextNBuysRequest {
+  int32 n = 1;
+}
+
+message NextNBuysReply {
+  string message = 1;
+}
+
+message GetGamesRequest{
+
+}
+
+message Game {
+  int32 id = 1;
+  string name = 2;
+  string user = 3;
+  string genre = 4;
+  string platform = 5;
+  string publisher = 6;
+  int32 releaseDate = 7;
+  int32 available = 8;
+  float rating = 9;
+}
+
+message GetGamesReply {
+  repeated Game games = 1;
+}

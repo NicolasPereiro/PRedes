@@ -32,3 +32,38 @@ C:\Users\Nico\Downloads\M6A-CodigoClase-main\M6A-CodigoClase-main\RPC\gRPC Examp
 C:\Users\Nico\Downloads\M6A-CodigoClase-main\M6A-CodigoClase-main\RPC\gRPC Example\GrpcServer\obj\Debug\net8.0\GrpcServer.pdb
 C:\Users\Nico\Downloads\M6A-CodigoClase-main\M6A-CodigoClase-main\RPC\gRPC Example\GrpcServer\obj\Debug\net8.0\GrpcServer.genruntimeconfig.cache
 C:\Users\Nico\Downloads\M6A-CodigoClase-main\M6A-CodigoClase-main\RPC\gRPC Example\GrpcServer\obj\Debug\net8.0\ref\GrpcServer.dll
+C:\Users\npere\RiderProjects\PRedes\GrpcServer\obj\Debug\net8.0\GrpcServer.csproj.AssemblyReference.cache
+C:\Users\npere\RiderProjects\PRedes\GrpcServer\obj\Debug\net8.0\GrpcServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\npere\RiderProjects\PRedes\GrpcServer\obj\Debug\net8.0\GrpcServer.AssemblyInfoInputs.cache
+C:\Users\npere\RiderProjects\PRedes\GrpcServer\obj\Debug\net8.0\GrpcServer.AssemblyInfo.cs
+C:\Users\npere\RiderProjects\PRedes\GrpcServer\obj\Debug\net8.0\GrpcServer.csproj.CoreCompileInputs.cache
+C:\Users\npere\RiderProjects\PRedes\GrpcServer\obj\Debug\net8.0\GrpcServer.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\npere\RiderProjects\PRedes\GrpcServer\obj\Debug\net8.0\GrpcServer.sourcelink.json
+C:\Users\npere\RiderProjects\PRedes\GrpcServer\obj\Debug\net8.0\GrpcServer.dll
+C:\Users\npere\RiderProjects\PRedes\GrpcServer\obj\Debug\net8.0\refint\GrpcServer.dll
+C:\Users\npere\RiderProjects\PRedes\GrpcServer\obj\Debug\net8.0\GrpcServer.pdb
+C:\Users\npere\RiderProjects\PRedes\GrpcServer\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\npere\RiderProjects\PRedes\GrpcServer\bin\Debug\net8.0\appsettings.json
+C:\Users\npere\RiderProjects\PRedes\GrpcServer\bin\Debug\net8.0\GrpcServer.exe
+C:\Users\npere\RiderProjects\PRedes\GrpcServer\bin\Debug\net8.0\GrpcServer.deps.json
+C:\Users\npere\RiderProjects\PRedes\GrpcServer\bin\Debug\net8.0\GrpcServer.runtimeconfig.json
+C:\Users\npere\RiderProjects\PRedes\GrpcServer\bin\Debug\net8.0\GrpcServer.dll
+C:\Users\npere\RiderProjects\PRedes\GrpcServer\bin\Debug\net8.0\GrpcServer.pdb
+C:\Users\npere\RiderProjects\PRedes\GrpcServer\bin\Debug\net8.0\Google.Protobuf.dll
+C:\Users\npere\RiderProjects\PRedes\GrpcServer\bin\Debug\net8.0\Grpc.AspNetCore.Server.dll
+C:\Users\npere\RiderProjects\PRedes\GrpcServer\bin\Debug\net8.0\Grpc.AspNetCore.Server.ClientFactory.dll
+C:\Users\npere\RiderProjects\PRedes\GrpcServer\bin\Debug\net8.0\Grpc.Core.Api.dll
+C:\Users\npere\RiderProjects\PRedes\GrpcServer\bin\Debug\net8.0\Grpc.Net.Client.dll
+C:\Users\npere\RiderProjects\PRedes\GrpcServer\bin\Debug\net8.0\Grpc.Net.ClientFactory.dll
+C:\Users\npere\RiderProjects\PRedes\GrpcServer\bin\Debug\net8.0\Grpc.Net.Common.dll
+C:\Users\npere\RiderProjects\PRedes\GrpcServer\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\npere\RiderProjects\PRedes\GrpcServer\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\npere\RiderProjects\PRedes\GrpcServer\obj\Debug\net8.0\staticwebassets\msbuild.GrpcServer.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\npere\RiderProjects\PRedes\GrpcServer\obj\Debug\net8.0\staticwebassets\msbuild.build.GrpcServer.props
+C:\Users\npere\RiderProjects\PRedes\GrpcServer\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.GrpcServer.props
+C:\Users\npere\RiderProjects\PRedes\GrpcServer\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.GrpcServer.props
+C:\Users\npere\RiderProjects\PRedes\GrpcServer\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\npere\RiderProjects\PRedes\GrpcServer\obj\Debug\net8.0\scopedcss\bundle\GrpcServer.styles.css
+C:\Users\npere\RiderProjects\PRedes\GrpcServer\obj\Debug\net8.0\GrpcServer.csproj.Up2Date
+C:\Users\npere\RiderProjects\PRedes\GrpcServer\obj\Debug\net8.0\GrpcServer.genruntimeconfig.cache
+C:\Users\npere\RiderProjects\PRedes\GrpcServer\obj\Debug\net8.0\ref\GrpcServer.dll

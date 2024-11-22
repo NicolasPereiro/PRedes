@@ -1,0 +1,2 @@
+obj\Debug\net8.0\Protos/Hola.cs \
+obj\Debug\net8.0\Protos/HolaGrpc.cs: Protos/hola.proto

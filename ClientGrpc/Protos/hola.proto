@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option csharp_namespace = "holas_namespace";
+
+package hola;
+
+service Hola {
+  rpc Saludar (SaludoRequest) returns ( stream SaludoReply);
+  
+}
+
+message SaludoRequest {
+  string name = 1;
+  int32 cantidad = 2;
+}
+
+message SaludoReply {
+  string message = 1;
+}

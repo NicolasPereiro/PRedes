@@ -1,6 +1,8 @@
 ﻿using games_namespace;
 using greeter_namespace;
+using Grpc.Core;
 using Grpc.Net.Client;
+using holas_namespace;
 
 namespace ClientGrpc
 {
@@ -20,7 +22,24 @@ namespace ClientGrpc
 
             // Me conecto al servidor:
             using var channel = GrpcChannel.ForAddress("http://localhost:5035");
-            var client = new Greeter.GreeterClient(channel);
+
+            var client = new Hola.HolaClient(channel);
+
+            var response = client.Saludar(new SaludoRequest { Name = "Ivan", Cantidad = 5 });
+            try
+            {
+                while (await response.ResponseStream.MoveNext())
+                {
+                    var message = response.ResponseStream.Current;
+                    Console.WriteLine($"Received: {message.Message}");
+                }
+            }
+            catch (RpcException e)
+            {
+                Console.WriteLine($"RPC failed: {e.Status}");
+            }
+            
+            /*var client = new Greeter.GreeterClient(channel);
             var gameClient = new Games.GamesClient(channel);
 
             // Request basica:
@@ -52,7 +71,7 @@ namespace ClientGrpc
             Console.WriteLine("Press any key to exit...");
             Console.ReadKey();
 
-            return;
+            return;*/
         }
     }
 }

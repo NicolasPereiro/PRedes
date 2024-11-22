@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ClientGrpc
-build_property.ProjectDir = C:\Users\Nico\Downloads\M6A-CodigoClase-main\M6A-CodigoClase-main\RPC\gRPC Example\ClientGrpc\
+build_property.ProjectDir = C:\Users\npere\RiderProjects\PRedes\ClientGrpc\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
